@@ -21,7 +21,7 @@ export const SubscribeButton = ({priceId}: SubscribeButtonProps) => {
                 const {sessionId} = response.data
 
                 const stripe = await getStripeJS()
-                stripe.redirectToCheckout(sessionId)
+                stripe.redirectToCheckout({sessionId})
                 
             } catch (error) {
                 alert(error.message)
