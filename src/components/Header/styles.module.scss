@@ -1,9 +1,9 @@
-.headerContainer{
+.headerContainer {
     height: 5rem;
     border-bottom: 1px solid var(--gray-7);
 }
 
-.headerContent{
+.headerContent {
     max-width: 1120px;
     height: 5rem;
     margin: 8px auto;
@@ -11,33 +11,32 @@
     display: flex;
     align-items: center;
 
-    nav{
+    nav {
         margin-left: 5rem;
         height: 5rem;
 
-        a{
+        a {
             display: inline-block;
             position: relative;
             margin: 0 0.5rem;
             height: 5rem;
             line-height: 5rem;
+            transition: .2s;
 
-            transition: color 0.2s;
-
-            & + a{
+            &+a {
                 margin-left: 2rem;
             }
 
-            &:hover{
+            &:hover {
                 color: #fff;
             }
 
-            &:active{
+            &.active {
                 color: #fff;
                 font-weight: bold;
             }
 
-            &:active::after{
+            &.active::after {
                 content: '';
                 height: 3px;
                 border-radius: 3px 3px 0 0;
@@ -50,7 +49,8 @@
         }
     }
 
-    button{
+    button {
         margin-left: auto;
     }
 }
+
