@@ -1,5 +1,7 @@
 <h1 align="center">
-  <img alt="Logo" src="./public/images/logo.svg" alt="ig.News">
+
+<img src="https://raw.githubusercontent.com/khalleb/ignews/main/public/images/avatar.svg" alt="rocketshoes" width="200px"/>
+
 </h1>
 
 <h1 align="center">
@@ -43,6 +45,32 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 
 ## Configurações necessárias
 
+### Definindo o .env para a aplicação rodar: 
+
+- Home
+![Home](https://i.imgur.com/ktL1NvC.png)
+
+```
+💵 Plataforma de pagamento: STRIPE
+🔒 Plataforma de Login: *OATUH*
+```
+
+- Acesso aos Posts
+![Posts](https://github.com/khalleb/ignews/blob/main/.github/image-02.png?raw=true)
+```
+🖥 Plataforma de cadastro dos Posts: *PrismicCMS*
+```
+
+- Pagamento
+![Stripe Pagamento](https://github.com/khalleb/ignews/blob/main/.github/image-04.png?raw=true)
+
+
+
+
+<div style="display:flex;justify-content:space-betwen">
+
+</div>
+
 ### **Requisitos**
 
 Necessário realizar as instalações:
@@ -63,7 +91,7 @@ Criar conta e configurar os serviços externos:
 
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
-$ git clone https://github.com/nelsonsantosaraujo/ignews.git
+$ git clone https://github.com/vitorveector/ignews.git
 # Entre na pasta do repositório clonado
 $ cd ignews
 ```
