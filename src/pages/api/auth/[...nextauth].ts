@@ -44,7 +44,6 @@ export default NextAuth({
         )
         return {...session, activeSubscription: userActiveSubscription}
       } catch(err) {
-        console.log(err)
         return {...session, activeSubscription: null}
       }},
       
@@ -75,7 +74,6 @@ export default NextAuth({
         );
         return true;
       } catch (err) {
-        console.log(err);
         return false;
       }
     },
