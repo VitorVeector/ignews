@@ -46,6 +46,8 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 ## Configurações necessárias
 
 ### Definindo o .env para a aplicação rodar: 
+![image](https://github.com/VitorVeector/ignews/assets/67335644/9793b01b-9f30-4d38-be66-2076f39ece9d)
+
 
 - Home
 ![Home](https://i.imgur.com/ktL1NvC.png)
